@@ -6,10 +6,12 @@ html {
 body {
   font-family: 'Times New Roman', Times, serif sans-serif;
   background-color: #eee;
-  height: 900px;
+  height: 100%;
+  min-height: 100%;
 }
 
 /* ---------------------- Navbar ------------------------- */
+
 
 
 /* ---------------------- Cart ------------------------- */
@@ -34,7 +36,6 @@ body {
   transition: all 200ms ease;
   color: black;
 }
-
 .button a {
   display: block;
   font-size: 18px;
@@ -43,11 +44,12 @@ body {
   padding-left: 35px;
   padding-right: 35px
 }
-
 .button:hover {
   opacity: 0.8
 }
-
+ul {
+  list-style-type: none;
+}
 .cart_section {
   width: 100%;
   padding-top: 93px;
@@ -195,9 +197,6 @@ body {
 
 /* ---------------------- Payment ------------------------- */
 
-.payContainer {
-  height: 100vh ;
-}
 .card {
   border: none ;
   display: flex;
@@ -282,6 +281,17 @@ input::-webkit-inner-spin-button {
   text-decoration: none;
   color: #fdcc49
 }
+
+/* ---------------------- Confirmed Purchase ------------------------- */
+
+.returnBtn {
+  color: black;
+}
+.returnBtn2 {
+  color: white;
+  text-decoration: none;
+}
+
 
 /* ---------------------- Login ------------------------- */
 .login {
@@ -471,4 +481,12 @@ h2 {
     padding: 10px;
     margin-top: 20px;
     width: 100%;
+}
+
+/* ---------------------- Footer ------------------------- */
+
+#footer {
+  position: relative;
+  width: 100%;  
+  /* margin-top: 100%; */
 }
