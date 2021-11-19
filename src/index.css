@@ -15,6 +15,7 @@ ANCHOR /* ---------------------- Navbar ------------------------- */
 ANCHOR /* ---------------------- Home --------------------------- */
 
 .welcome {
+  margin: auto;
   text-align: center;
   margin-top: 35px;
   font-weight:60px;
@@ -27,21 +28,21 @@ ANCHOR /* ---------------------- Home --------------------------- */
   max-height: 480px;
 }
 .moreBtn {
+  color: white !important ;
   margin-top: 25px;
-  background-color: #0e8ce4;
+  margin-bottom: 25px;
+  background-color: #3F51B5;
   border: none;
-  color: white;
-  padding: 15px 80px;
+  padding: 15px 40px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   text-transform: uppercase;
-  font-size: 13px;
   border-radius: 5px;
 }
-h2 {
+.homeH2 {
   text-align: center;
   text-transform: uppercase;
+  margin-top: 30px;
 }
 
 ANCHOR /* ---------------------- Product ------------------------ */
@@ -52,7 +53,7 @@ ANCHOR /* ---------------------- Product ------------------------ */
   margin-left: 20px;
 }
 .mb-50 {
-  margin-bottom: 50px
+  margin-bottom: 25px
 }
 .card {
   position: relative;
@@ -110,7 +111,7 @@ ANCHOR /* ---------------------- About ---------------------- */
   margin-bottom: 7%;
 }
 .paddingTB60 {
-  padding: 60px 0px 60px 0px;
+  padding: 100px 100px 100px 100px;
 }
 .gray-bg {
   background: #F1F1F1 !important;
@@ -311,6 +312,7 @@ ANCHOR /* ---------------------- Payment ------------------------- */
 }
 #payment {
   width: 75%;
+  margin:auto;
 }
 .payBtn {
   color: white;
