@@ -1,3 +1,4 @@
+
 /* ---------------------- Over ALL ------------------------- */
 
 html {
@@ -332,18 +333,18 @@ ANCHOR /* ---------------------- Payment ------------------------- */
   border-radius: 0px;
   border-bottom: 2px solid blue !important
 }
-.inputbox {
+.inputBox {
   position: relative;
   margin-bottom: 20px;
   width: 100%
 }
-.inputbox span {
+.inputBox span {
   position: absolute;
   top: 7px;
   left: 11px;
   transition: 0.5s;
 }
-.inputbox i {
+.inputBox i {
   position: absolute;
   top: 13px;
   right: 8px;
@@ -355,18 +356,18 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-.inputbox input:focus~span {
+.inputBox input:focus~span {
   transform: translateX(-0px) translateY(-15px);
   font-size: 12px;
 }
-.inputbox input:valid~span {
+.inputBox input:valid~span {
   transform: translateX(-0px) translateY(-15px);
   font-size: 12px;
 }
 .card-blue {
   background-color: #492bc4;
 }
-.hightlight {
+.hightLight {
   background-color: #5737d9;
   padding: 10px;
   border-radius: 10px;
@@ -596,4 +597,4 @@ ANCHOR /* ---------------------- Footer ------------------------- */
 #footer {
   position: relative;
   width: 100%;
-}
+} 
